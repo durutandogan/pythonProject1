@@ -1,0 +1,211 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6897bb;}
+.s3 { color: #cc7832;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre><span class="s0"># # ### değişken tanımlama</span>
+<span class="s0"># # i = 5</span>
+<span class="s0"># # print(i)</span>
+<span class="s0"># # print(type(i))</span>
+<span class="s0"># #</span>
+<span class="s0"># # i = 8</span>
+<span class="s0"># # print(i)</span>
+<span class="s0"># #</span>
+<span class="s0"># # m = &quot;abcdefg&quot;</span>
+<span class="s0"># # print(i)</span>
+<span class="s0"># # print(type(i))</span>
+<span class="s0"># #</span>
+<span class="s0"># # i = float(i)</span>
+<span class="s0"># # print(i)</span>
+<span class="s0"># # print(type(i))</span>
+<span class="s0"># #</span>
+<span class="s0"># # i = str(i)</span>
+<span class="s0"># # print(i)</span>
+<span class="s0"># # print(type(i))</span>
+<span class="s0"># #</span>
+<span class="s0"># #</span>
+<span class="s0"># # ### değişken değiştirme</span>
+<span class="s0"># # a = 4</span>
+<span class="s0"># # b = 5</span>
+<span class="s0"># # a,b = b,a</span>
+<span class="s0"># # print(&quot;a =&quot;, a)</span>
+<span class="s0"># # print(&quot;b =&quot;, b)</span>
+<span class="s0"># #</span>
+<span class="s0"># # ### değişken değeri arttırma</span>
+<span class="s0"># # a = 5</span>
+<span class="s0"># # a = a + 1</span>
+<span class="s0"># # print(&quot;a =&quot;, a)</span>
+<span class="s0"># #</span>
+<span class="s0"># # a += 1</span>
+<span class="s0"># # print(&quot;a =&quot;, a)</span>
+<span class="s0"># #</span>
+<span class="s0"># # ### string oluşturma</span>
+<span class="s0"># # x = &quot;abcdefg&quot;</span>
+<span class="s0"># # print(type(x))</span>
+<span class="s0"># #</span>
+<span class="s0"># # ### string indexleme</span>
+<span class="s0"># # x = &quot;abcdefg&quot;</span>
+<span class="s0"># # print( x[0] )</span>
+<span class="s0"># # print( x[1] )</span>
+<span class="s0"># # print( x[3] )</span>
+<span class="s0"># # print( x[-1] )</span>
+<span class="s0"># #</span>
+<span class="s0"># # ###  string parçalama</span>
+<span class="s0"># # x = &quot;abcdefg&quot;</span>
+<span class="s0"># # print( x[2:5] )</span>
+<span class="s0"># # print( x[5:1:-1] )</span>
+<span class="s0"># # print( x[1:6:2] )</span>
+<span class="s0"># # print( x[::2] )</span>
+<span class="s0"># # print( x[::-1] )</span>
+<span class="s0"># #</span>
+<span class="s0"># # ### string özellikleri</span>
+<span class="s0"># # x = &quot;abcdefg&quot;</span>
+<span class="s0"># # print( len(x) )</span>
+<span class="s0"># #</span>
+<span class="s0"># # a = &quot;Duru&quot;</span>
+<span class="s0"># # a = a + &quot;Tandoğan&quot;</span>
+<span class="s0"># # print(a) # nasıl yazdıracak?</span>
+<span class="s0"># # a = a + &quot;&quot; + &quot;Tandoğan&quot;</span>
+<span class="s0"># # print(a) # nasıl yazdıracak</span>
+<span class="s0"># #</span>
+<span class="s0"># # print(a*3)</span>
+<span class="s0"># #</span>
+<span class="s0"># # ###Listeler</span>
+<span class="s0"># # liste = []</span>
+<span class="s0"># # print(type(liste))</span>
+<span class="s0"># # x = &quot;abcdefg&quot;</span>
+<span class="s0"># # liste_2 = list(x)</span>
+<span class="s0"># # print(liste_2)</span>
+<span class="s0"># # print(type(liste_2))</span>
+<span class="s0"># #</span>
+<span class="s0"># # ### liste indexleme ve parçalama</span>
+<span class="s0"># # liste = [1,2,3,4,5,6,7,8]</span>
+<span class="s0"># # print(liste[0])</span>
+<span class="s0"># # print(liste[-1])</span>
+<span class="s0"># # print(liste[2:5:2])</span>
+<span class="s0"># # print(liste[:4:-1])</span>
+<span class="s0"># #</span>
+<span class="s0"># # ##liste toplama</span>
+<span class="s0"># # liste = [1,2,3]</span>
+<span class="s0"># # liste_2 = [4,5,6]</span>
+<span class="s0"># # liste_3 = liste + liste_2</span>
+<span class="s0"># # print(liste_3)</span>
+<span class="s0"># #</span>
+<span class="s0"># # print(liste * 3) #listem değişti mi?</span>
+<span class="s0"># # print(liste)</span>
+<span class="s0"># # liste = liste * 3</span>
+<span class="s0"># # print(liste)</span>
+<span class="s0"># #</span>
+<span class="s0"># # print(liste_2)</span>
+<span class="s0"># # liste_2[1] = 10</span>
+<span class="s0"># # print(liste_2)</span>
+<span class="s0"># #</span>
+<span class="s0"># # liste_d = [1,2, [4,5,6]]</span>
+<span class="s0"># # print(liste_d[2][1])</span>
+<span class="s0">#</span>
+<span class="s0"># ###liste methodları</span>
+<span class="s1">liste = [</span><span class="s2">6</span><span class="s3">, </span><span class="s2">3</span><span class="s3">, </span><span class="s2">5</span><span class="s3">, </span><span class="s2">7</span><span class="s1">]</span>
+<span class="s1">liste.append(</span><span class="s2">4</span><span class="s1">)</span>
+<span class="s1">print(liste)</span>
+<span class="s1">liste.pop()</span>
+<span class="s1">print(liste)</span>
+<span class="s1">liste.pop(liste[</span><span class="s2">1</span><span class="s1">])</span>
+
+<span class="s1">print(liste.sort())</span>
+
+<span class="s0"># # ###Tuple</span>
+<span class="s0"># #</span>
+<span class="s0"># # Tuple = (1, 2, 3, 3, 4, 5)</span>
+<span class="s0"># # print(type(Tuple))</span>
+<span class="s0"># #</span>
+<span class="s0"># # print(Tuple[1])</span>
+<span class="s0"># # print(Tuple[1:4])</span>
+<span class="s0"># #</span>
+<span class="s0"># # # Tuple[1] = 7</span>
+<span class="s0"># # # print(Tuple)</span>
+<span class="s0"># #</span>
+<span class="s0"># # print(Tuple.count(3))</span>
+<span class="s0"># #</span>
+<span class="s0"># # ### setler</span>
+<span class="s0"># # list = [1,2,3,4,5]</span>
+<span class="s0"># # set = set(list)</span>
+<span class="s0"># # print(set)</span>
+<span class="s0"># #</span>
+<span class="s0"># # set_A = {0,1,2,3,4}</span>
+<span class="s0"># # set_B = {2,3,4,5,6,7}</span>
+<span class="s0"># #</span>
+<span class="s0"># # print(&quot;Union: &quot;, set_A.union(set_B))</span>
+<span class="s0"># # print(&quot;Intersect: &quot;, set_A.intersection(set_B))</span>
+<span class="s0"># #</span>
+<span class="s0"># # print(set_A[3])</span>
+<span class="s0"># # set_A[3] = 7</span>
+<span class="s0"># # print(set_A)</span>
+<span class="s0">#</span>
+<span class="s0"># # ###dictionary</span>
+<span class="s0"># # dict = {&quot;key_1&quot; : 3, &quot;key_2&quot;: 4 ,&quot;key_3&quot;: 5, &quot;key_4&quot; : 6}</span>
+<span class="s0"># #</span>
+<span class="s0"># # print(dict[&quot;key_1&quot;])</span>
+<span class="s0"># # dict[&quot;key_5&quot;] = 7</span>
+<span class="s0"># # print(dict)</span>
+<span class="s0"># #</span>
+<span class="s0"># # dict[&quot;key_3&quot;] = 19</span>
+<span class="s0"># # print(dict)</span>
+<span class="s0"># #</span>
+<span class="s0"># # dict_2 = {&quot;key_1&quot; : 1, &quot;key_2&quot;: [1,2,3] ,&quot;key_3&quot;: 2, &quot;key_4&quot; : 3}</span>
+<span class="s0"># # print(dict_2[&quot;key_2&quot;][1])</span>
+<span class="s0">#</span>
+<span class="s0"># ### IF/ELSE/ELIF</span>
+<span class="s0"># if 3 &gt; 4:</span>
+<span class="s0">#     print(&quot;3 daha büyük&quot;)</span>
+<span class="s0"># print(&quot;3 daha küçük&quot;)</span>
+<span class="s0">#</span>
+<span class="s0">#</span>
+<span class="s0"># a = 10</span>
+<span class="s0"># b = 20</span>
+<span class="s0"># c = 20</span>
+<span class="s0"># if a &gt; b and b &gt; c:</span>
+<span class="s0">#     print(&quot;a b'den büyük VE b c'den büyük&quot;)</span>
+<span class="s0"># elif a &lt; b and b &lt; c:</span>
+<span class="s0">#     print(&quot;a b'den küçük VE b c'den küçük&quot;)</span>
+<span class="s0"># else:</span>
+<span class="s0">#     print(&quot;Koşullar sağlanmadı&quot;)</span>
+<span class="s0">#</span>
+<span class="s0"># ### in operatörü</span>
+<span class="s0"># # içinde olup olmadığına bakar.</span>
+<span class="s0"># print(5 in [1,2,3,4])</span>
+<span class="s0"># print(2 in [1,2,3,4])</span>
+
+
+<span class="s0">### for döngüsü</span>
+<span class="s0"># liste = [1,2,3,4,5]</span>
+<span class="s0"># for eleman in liste:</span>
+<span class="s0">#     print(eleman)</span>
+
+<span class="s0"># i = 0</span>
+<span class="s0"># while i&lt;5:</span>
+<span class="s0">#      print(i)</span>
+<span class="s0">###sonsuza kadar devam eder</span>
+   <span class="s0">### i += 1</span>
+
+
+<span class="s0">### Range fonksiyonu</span>
+<span class="s0"># print(range(0,20))</span>
+<span class="s0"># print(*range(0,20))</span>
+<span class="s0"># print(*range(0,20,2))</span>
+<span class="s0">#</span>
+<span class="s0"># for i in range(1,6):</span>
+<span class="s0">#     print(&quot;1&quot; * i)</span></pre>
+</body>
+</html>
